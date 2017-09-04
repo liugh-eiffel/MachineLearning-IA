@@ -40,7 +40,12 @@ print (ranges)
 print (minVals)
 
 print ('\n==================分类器针对约会网站的测试代码===================')
-#datingTest = kNN.datingClassTest()
+datingTest = kNN.datingClassTest()
 
-datingTest = kNN.classifyPerson()
+#datingTest = kNN.classifyPerson()
 
+print ('\n==================im2vector===================')
+#testVector = kNN.img2vector('testDigits/0_13.txt')
+#print (testVector[0, 0:31])
+testVector = kNN.handwritingClassTest()
+print (testVector)
