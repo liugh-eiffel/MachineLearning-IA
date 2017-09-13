@@ -15,3 +15,7 @@ print (testSd)
 print ('\n--------------------------------------')
 testCb = trees.chooseBestFeatureToSplit(myDat)
 print (testCb)
+
+print ('\n--------------------------------------')
+myTree = trees.createTree(myDat, labels)
+print (myTree)
